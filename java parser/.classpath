@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="releases/libs/org.eclipse.jdt.core_3.6.1.v_A68_R36x.jar" sourcepath="releases/libs/org.eclipse.jdt.core.source_3.6.1.v_A68_R36x.jar"/>
+	<classpathentry exported="true" kind="lib" path="releases/libs/org.eclipse.core.jobs_3.5.1.R36x_v20100824.jar"/>
+	<classpathentry exported="true" kind="lib" path="releases/libs/org.eclipse.core.resources_3.6.0.R36x_v20100825-0600.jar"/>
+	<classpathentry exported="true" kind="lib" path="releases/libs/org.eclipse.core.runtime_3.6.0.v20100505.jar"/>
+	<classpathentry exported="true" kind="lib" path="releases/libs/org.eclipse.equinox.common_3.6.0.v20100503.jar"/>
+	<classpathentry exported="true" kind="lib" path="releases/libs/org.eclipse.equinox.preferences_3.3.0.v20100503.jar"/>
+	<classpathentry exported="true" kind="lib" path="releases/libs/org.eclipse.osgi_3.6.1.R36x_v20100806.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry exported="true" kind="lib" path="releases/libs/org.eclipse.text_3.5.0.v20100601-1300.jar"/>
+	<classpathentry exported="true" kind="lib" path="releases/libs/org.eclipse.core.contenttype_3.4.100.v20100505-1235.jar"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/CPL"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

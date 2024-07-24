@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="CPL" default="build.jars" basedir=".">
+
+	<property name="basews" value="${ws}"/>
+	<property name="baseos" value="${os}"/>
+	<property name="basearch" value="${arch}"/>
+	<property name="basenl" value="${nl}"/>
+	<property name="bundleId" value="CPL"/>
+	<property name="bundleVersion" value="1.0.0"/>
+
+	<!-- Compiler settings. -->
+	<property name="javacFailOnError" value="false"/>
+	<property name="javacDebugInfo" value="on"/>
+	<property name="javacVerbose" value="false"/>
+	<property name="logExtension" value=".log"/>
+	<property name="compilerArg" value=""/>
+	<property name="javacSource" value="1.3"/>
+	<property name="javacTarget" value="1.2"/>
+	<condition property="dir_bootclasspath" value="${java.home}/../Classes">
+		<os family="mac"/>
+	</condition>
+	<property name="dir_bootclasspath" value="${java.home}/lib"/>
+	<path id="path_bootclasspath">
+		<fileset dir="${dir_bootclasspath}">
+			<include name="*.jar"/>
+		</fileset>
+	</path>
+	<property name="bootclasspath" refid="path_bootclasspath"/>
+	<property name="bundleJavacSource" value="${javacSource}"/>
+	<property name="bundleJavacTarget" value="${javacTarget}"/>
+	<property name="bundleBootClasspath" value="${bootclasspath}"/>
+
+	<target name="init" depends="properties">
+		<condition property="pluginTemp" value="${buildTempFolder}/plugins">
+			<isset property="buildTempFolder"/>
+		</condition>
+		<property name="pluginTemp" value="${basedir}"/>
+		<condition property="build.result.folder" value="${pluginTemp}/CPL_1.0.0">
+			<isset property="buildTempFolder"/>
+		</condition>
+		<property name="build.result.folder" value="${basedir}"/>
+		<property name="temp.folder" value="${basedir}/temp.folder"/>
+		<property name="plugin.destination" value="${basedir}"/>
+	</target>
+
+	<target name="properties" if="eclipse.running">
+		<property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+
+	</target>
+
+	<target name="build.update.jar" depends="init" description="Build the plug-in: CPL for an update site.">
+		<delete dir="${temp.folder}"/>
+		<mkdir dir="${temp.folder}"/>
+		<antcall target="build.jars"/>
+		<antcall target="gather.bin.parts">
+			<param name="destination.temp.folder" value="${temp.folder}/"/>
+		</antcall>
+		<jar destfile="${plugin.destination}/CPL_1.0.0.jar" basedir="${temp.folder}/CPL_1.0.0" filesetmanifest="merge"/>
+		<delete dir="${temp.folder}"/>
+	</target>
+
+	<target name="CPL.jar" depends="init" unless="CPL.jar" description="Create jar: CPL CPL.jar.">
+		<delete dir="${temp.folder}/CPL.jar.bin"/>
+		<mkdir dir="${temp.folder}/CPL.jar.bin"/>
+		<path id="CPL.jar.classpath">
+			<pathelement path="tools.jar"/>
+			<pathelement path="${build.result.folder}/../CPL_1.0.0/tools.jar"/>
+			<pathelement path="batik-awt-util.jar"/>
+			<pathelement path="${build.result.folder}/../CPL_1.0.0/batik-awt-util.jar"/>
+			<pathelement path="batik-dom.jar"/>
+			<pathelement path="${build.result.folder}/../CPL_1.0.0/batik-dom.jar"/>
+			<pathelement path="batik-svggen.jar"/>
+			<pathelement path="${build.result.folder}/../CPL_1.0.0/batik-svggen.jar"/>
+			<pathelement path="batik-util.jar"/>
+			<pathelement path="${build.result.folder}/../CPL_1.0.0/batik-util.jar"/>
+			<pathelement path="batik-xml.jar"/>
+			<pathelement path="${build.result.folder}/../CPL_1.0.0/batik-xml.jar"/>
+			<pathelement path="xalan-2.6.0.jar"/>
+			<pathelement path="${build.result.folder}/../CPL_1.0.0/xalan-2.6.0.jar"/>
+			<pathelement path="xerces_2_5_0.jar"/>
+			<pathelement path="${build.result.folder}/../CPL_1.0.0/xerces_2_5_0.jar"/>
+			<pathelement path="xml-apis.jar"/>
+			<pathelement path="${build.result.folder}/../CPL_1.0.0/xml-apis.jar"/>
+			<pathelement path="xml-apis-ext.jar"/>
+			<pathelement path="${build.result.folder}/../CPL_1.0.0/xml-apis-ext.jar"/>
+			<pathelement path="cfparse.jar"/>
+			<pathelement path="${build.result.folder}/../CPL_1.0.0/cfparse.jar"/>
+			<pathelement path="bcel-5.2.jar"/>
+			<pathelement path="${build.result.folder}/../CPL_1.0.0/bcel-5.2.jar"/>
+		</path>
+		<!-- compile the source code -->
+		<javac destdir="${temp.folder}/CPL.jar.bin" failonerror="${javacFailOnError}" verbose="${javacVerbose}" debug="${javacDebugInfo}" includeAntRuntime="no" bootclasspath="${bundleBootClasspath}" source="${bundleJavacSource}" target="${bundleJavacTarget}"		>
+			<compilerarg line="${compilerArg}" compiler="${build.compiler}"/>
+			<classpath refid="CPL.jar.classpath" />
+			<src path="src/"			/>
+			<compilerarg line="-log '${temp.folder}/CPL.jar.bin${logExtension}'" compiler="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+		</javac>
+		<!-- Copy necessary resources -->
+		<copy todir="${temp.folder}/CPL.jar.bin" failonerror="true" overwrite="false">
+			<fileset dir="src/">
+				<exclude name="**/*.java"/>
+				<exclude name="**/package.htm*"/>
+			</fileset>
+		</copy>
+		<mkdir dir="${build.result.folder}"/>
+		<jar destfile="${build.result.folder}/CPL.jar" basedir="${temp.folder}/CPL.jar.bin"/>
+		<delete dir="${temp.folder}/CPL.jar.bin"/>
+	</target>
+
+	<target name="CPLsrc.zip" depends="init" unless="CPLsrc.zip">
+		<mkdir dir="${build.result.folder}"/>
+		<zip destfile="${build.result.folder}/CPLsrc.zip" filesonly="false" whenempty="skip" update="false">
+			<fileset dir="src/">
+				<include name="**/*.java"/>
+			</fileset>
+		</zip>
+	</target>
+
+	<target name="build.jars" depends="init" description="Compile classes and build nested jars for the plug-in: CPL.">
+		<available property="CPL.jar" file="${build.result.folder}/CPL.jar"/>
+		<antcall target="CPL.jar"/>
+	</target>
+
+	<target name="build.sources" depends="init">
+		<available property="CPLsrc.zip" file="${build.result.folder}/CPLsrc.zip"/>
+		<antcall target="CPLsrc.zip"/>
+	</target>
+
+	<target name="gather.bin.parts" depends="init" if="destination.temp.folder">
+		<mkdir dir="${destination.temp.folder}/CPL_1.0.0"/>
+		<copy todir="${destination.temp.folder}/CPL_1.0.0" failonerror="true" overwrite="false">
+			<fileset dir="${build.result.folder}">
+				<include name="CPL.jar"/>
+			</fileset>
+		</copy>
+		<copy todir="${destination.temp.folder}/CPL_1.0.0" failonerror="true" overwrite="false">
+			<fileset dir="${basedir}">
+				<include name="META-INF/"/>
+				<include name="tools.jar"/>
+				<include name="batik-awt-util.jar"/>
+				<include name="batik-dom.jar"/>
+				<include name="batik-svggen.jar"/>
+				<include name="batik-util.jar"/>
+				<include name="batik-xml.jar"/>
+				<include name="xalan-2.6.0.jar"/>
+				<include name="xerces_2_5_0.jar"/>
+				<include name="xml-apis.jar"/>
+				<include name="xml-apis-ext.jar"/>
+				<include name="cfparse.jar"/>
+				<include name="bcel-5.2.jar"/>
+				<include name="CPL.jar"/>
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="build.zips" depends="init">
+	</target>
+
+	<target name="gather.sources" depends="init" if="destination.temp.folder">
+		<mkdir dir="${destination.temp.folder}/CPL_1.0.0"/>
+		<copy file="${build.result.folder}/CPLsrc.zip" todir="${destination.temp.folder}/CPL_1.0.0" failonerror="false" overwrite="false"/>
+	</target>
+
+	<target name="gather.logs" depends="init" if="destination.temp.folder">
+		<mkdir dir="${destination.temp.folder}/CPL_1.0.0"/>
+		<copy todir="${destination.temp.folder}/CPL_1.0.0" failonerror="false" overwrite="false">
+			<fileset dir="${temp.folder}">
+				<include name="CPL.jar.bin${logExtension}"/>
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="clean" depends="init" description="Clean the plug-in: CPL of all the zips, jars and logs created.">
+		<delete file="${build.result.folder}/CPL.jar"/>
+		<delete file="${build.result.folder}/CPLsrc.zip"/>
+		<delete file="${plugin.destination}/CPL_1.0.0.jar"/>
+		<delete file="${plugin.destination}/CPL_1.0.0.zip"/>
+		<delete dir="${temp.folder}"/>
+	</target>
+
+	<target name="refresh" depends="init" if="eclipse.running" description="Refresh this folder.">
+		<eclipse.convertPath fileSystemPath="D:/Software/Ptidej Workspace 3/CPL" property="resourcePath"/>
+		<eclipse.refreshLocal resource="${resourcePath}" depth="infinite"/>
+	</target>
+
+	<target name="zip.plugin" depends="init" description="Create a zip containing all the elements for the plug-in: CPL.">
+		<delete dir="${temp.folder}"/>
+		<mkdir dir="${temp.folder}"/>
+		<antcall target="build.jars"/>
+		<antcall target="build.sources"/>
+		<antcall target="gather.bin.parts">
+			<param name="destination.temp.folder" value="${temp.folder}/"/>
+		</antcall>
+		<antcall target="gather.sources">
+			<param name="destination.temp.folder" value="${temp.folder}/"/>
+		</antcall>
+		<delete>
+			<fileset dir="${temp.folder}">
+				<include name="**/*.bin${logExtension}"/>
+			</fileset>
+		</delete>
+		<zip destfile="${plugin.destination}/CPL_1.0.0.zip" basedir="${temp.folder}" filesonly="true" whenempty="skip" update="false"/>
+		<delete dir="${temp.folder}"/>
+	</target>
+
+</project>

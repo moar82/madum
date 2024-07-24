@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="798" localization="OSGI-INF/l10n/bundle" name="PADL_Statements" project="PADL Statements"/>
+	<bundle bundleID="800" localization="OSGI-INF/l10n/bundle" name="CPL" project="CPL">
+		<library name="lib/tools.jar"/>
+		<library name="lib/batik-awt-util.jar"/>
+		<library name="lib/batik-dom.jar"/>
+		<library name="lib/batik-svggen.jar"/>
+		<library name="lib/batik-util.jar"/>
+		<library name="lib/batik-xml.jar"/>
+		<library name="lib/xalan-2.6.0.jar"/>
+		<library name="lib/xerces_2_5_0.jar"/>
+		<library name="lib/xml-apis.jar"/>
+		<library name="lib/xml-apis-ext.jar"/>
+		<library name="lib/cfparse/"/>
+		<library name="lib/bcel/"/>
+		<library name="lib/trove-3.0.0a.jar"/>
+		<library name="."/>
+		<library name="lib/commons-lang-2.4.jar"/>
+		<library name="lib/batik-ext.jar"/>
+		<library name="lib/batik-svg-dom.jar"/>
+		<library name="lib/batik-css.jar"/>
+		<library name="lib/batik-parser.jar"/>
+		<library name="lib/batik-anim.jar"/>
+		<library name="lib/batik-bridge.jar"/>
+		<library name="lib/batik-codec.jar"/>
+		<library name="lib/batik-extension.jar"/>
+		<library name="lib/batik-gui-util.jar"/>
+		<library name="lib/batik-gvt.jar"/>
+		<library name="lib/batik-script.jar"/>
+		<library name="lib/batik-swing.jar"/>
+		<library name="lib/batik-transcoder.jar"/>
+		<library name="lib/pdf-transcoder.jar"/>
+	</bundle>
+	<bundle bundleID="799" localization="OSGI-INF/l10n/bundle" name="PADL" project="PADL"/>
+</map>

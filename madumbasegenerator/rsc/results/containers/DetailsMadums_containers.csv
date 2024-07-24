@@ -1,0 +1,5 @@
+classId;AllFields;ConstantFields;FieldsNotUsed;AllMethods;StaticMethods;Constructors;Getters;Setters;Transformers;Others;Slices;MeanMethodsPerSlice;TestCases
+java.util.Hashtable;13;5;0;41;0;4;6;3;8;26;8;6,88;179
+java.util.LinkedList;4;1;0;57;0;2;6;3;4;46;3;13,33;155
+java.util.Stack;1;1;0;6;0;1;0;0;0;5;0;,00;6
+Vector;2;0;0;13;1;2;0;0;3;10;2;8,50;24

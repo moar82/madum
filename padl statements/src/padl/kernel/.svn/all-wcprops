@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/rptidej/ptidejlab/!svn/ver/1017/Software/Ptidej%205%20Workspace/PADL%20Statements/src/padl/kernel
+END
+IStatementGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/rptidej/ptidejlab/!svn/ver/832/Software/Ptidej%205%20Workspace/PADL%20Statements/src/padl/kernel/IStatementGenerator.java
+END
+IConditional.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/rptidej/ptidejlab/!svn/ver/832/Software/Ptidej%205%20Workspace/PADL%20Statements/src/padl/kernel/IConditional.java
+END
+IStatementWalker.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/rptidej/ptidejlab/!svn/ver/832/Software/Ptidej%205%20Workspace/PADL%20Statements/src/padl/kernel/IStatementWalker.java
+END
+IIfInstruction.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/rptidej/ptidejlab/!svn/ver/832/Software/Ptidej%205%20Workspace/PADL%20Statements/src/padl/kernel/IIfInstruction.java
+END
+IIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/rptidej/ptidejlab/!svn/ver/1017/Software/Ptidej%205%20Workspace/PADL%20Statements/src/padl/kernel/IIterator.java
+END
+IStatement.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/rptidej/ptidejlab/!svn/ver/952/Software/Ptidej%205%20Workspace/PADL%20Statements/src/padl/kernel/IStatement.java
+END
+IBlock.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/rptidej/ptidejlab/!svn/ver/832/Software/Ptidej%205%20Workspace/PADL%20Statements/src/padl/kernel/IBlock.java
+END
+ISwitchInstruction.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/rptidej/ptidejlab/!svn/ver/832/Software/Ptidej%205%20Workspace/PADL%20Statements/src/padl/kernel/ISwitchInstruction.java
+END

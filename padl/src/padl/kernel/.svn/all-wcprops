@@ -1,0 +1,365 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/rptidej/ptidejlab/!svn/ver/8168/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/rptidej/ptidejlab/!svn/ver/5985/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/Constants.java
+END
+IClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/rptidej/ptidejlab/!svn/ver/952/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IClass.java
+END
+IDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IDetector.java
+END
+IMemberGhost.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/rptidej/ptidejlab/!svn/ver/5717/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IMemberGhost.java
+END
+IDesignLevelModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IDesignLevelModel.java
+END
+IGeneralisation.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IGeneralisation.java
+END
+IEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/rptidej/ptidejlab/!svn/ver/903/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IEntity.java
+END
+IContainerAggregation.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/rptidej/ptidejlab/!svn/ver/952/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IContainerAggregation.java
+END
+IGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IGenerator.java
+END
+IMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/rptidej/ptidejlab/!svn/ver/903/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IMethod.java
+END
+ICreation.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/ICreation.java
+END
+IGhost.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/rptidej/ptidejlab/!svn/ver/952/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IGhost.java
+END
+IMemberEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/rptidej/ptidejlab/!svn/ver/5717/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IMemberEntity.java
+END
+IInterfaceActor.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/rptidej/ptidejlab/!svn/ver/903/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IInterfaceActor.java
+END
+IVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IVisitor.java
+END
+IPackageDefault.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/rptidej/ptidejlab/!svn/ver/952/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IPackageDefault.java
+END
+IRelationship.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/rptidej/ptidejlab/!svn/ver/903/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IRelationship.java
+END
+IComposition.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IComposition.java
+END
+IPrimitiveEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/rptidej/ptidejlab/!svn/ver/903/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IPrimitiveEntity.java
+END
+IFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IFilter.java
+END
+IInterfaceImplementer.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/rptidej/ptidejlab/!svn/ver/952/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IInterfaceImplementer.java
+END
+IWalker.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IWalker.java
+END
+ISpecialisation.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/ISpecialisation.java
+END
+IConstituent.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/rptidej/ptidejlab/!svn/ver/1784/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IConstituent.java
+END
+IImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IImplementation.java
+END
+IMethodInvocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/rptidej/ptidejlab/!svn/ver/952/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IMethodInvocation.java
+END
+IAggregation.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IAggregation.java
+END
+IAssociation.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IAssociation.java
+END
+IContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/rptidej/ptidejlab/!svn/ver/2723/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IContainer.java
+END
+IMemberInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/rptidej/ptidejlab/!svn/ver/5717/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IMemberInterface.java
+END
+IConstituentOfEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IConstituentOfEntity.java
+END
+IGetter.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IGetter.java
+END
+IInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/rptidej/ptidejlab/!svn/ver/952/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IInterface.java
+END
+IAbstractLevelModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IAbstractLevelModel.java
+END
+IElementMarker.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IElementMarker.java
+END
+IDelegatingMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IDelegatingMethod.java
+END
+IObservable.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/rptidej/ptidejlab/!svn/ver/5985/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IObservable.java
+END
+IAbstractModelSerialiser.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IAbstractModelSerialiser.java
+END
+ISetter.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/ISetter.java
+END
+IIdiomLevelModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IIdiomLevelModel.java
+END
+IEntityMarker.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IEntityMarker.java
+END
+IFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/rptidej/ptidejlab/!svn/ver/6920/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IFactory.java
+END
+IDesignMotifModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IDesignMotifModel.java
+END
+IParameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/rptidej/ptidejlab/!svn/ver/952/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IParameter.java
+END
+IOperation.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/rptidej/ptidejlab/!svn/ver/952/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IOperation.java
+END
+IAbstractModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/rptidej/ptidejlab/!svn/ver/952/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IAbstractModel.java
+END
+IPackage.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/rptidej/ptidejlab/!svn/ver/952/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IPackage.java
+END
+ICodeLevelModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/rptidej/ptidejlab/!svn/ver/952/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/ICodeLevelModel.java
+END
+IConstituentOfModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/rptidej/ptidejlab/!svn/ver/903/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IConstituentOfModel.java
+END
+IUseRelationship.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IUseRelationship.java
+END
+IConstituentOfOperation.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/rptidej/ptidejlab/!svn/ver/952/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IConstituentOfOperation.java
+END
+IMemberClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/rptidej/ptidejlab/!svn/ver/5717/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IMemberClass.java
+END
+IFirstClassEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/rptidej/ptidejlab/!svn/ver/952/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IFirstClassEntity.java
+END
+IElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/rptidej/ptidejlab/!svn/ver/903/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IElement.java
+END
+IPackageGhost.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/rptidej/ptidejlab/!svn/ver/952/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IPackageGhost.java
+END
+INavigable.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/rptidej/ptidejlab/!svn/ver/1710/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/INavigable.java
+END
+IContainerComposition.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IContainerComposition.java
+END
+IField.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/rptidej/ptidejlab/!svn/ver/903/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IField.java
+END
+ICodeLevelModelCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/ICodeLevelModelCreator.java
+END
+IConstructor.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/rptidej/ptidejlab/!svn/ver/903/Software/Ptidej%205%20Workspace/PADL/src/padl/kernel/IConstructor.java
+END

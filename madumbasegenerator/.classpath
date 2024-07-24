@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Java Parser"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/PADL"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/PADL Creator JavaFile (Eclipse)"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/PADL Statements"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

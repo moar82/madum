@@ -1,0 +1,3 @@
+;<init>(double[]);<init>(int);cartesian(int);direction();distanceTo(Vector);dot(Vector);length();magnitude();minus(Vector);plus(Vector);times(double);toString()
+N;c;c;;;o;o;o;;o;o;o;o
+data;c;c;o;;;o;;;t;t;t;o

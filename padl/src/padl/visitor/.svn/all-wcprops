@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/rptidej/ptidejlab/!svn/ver/5106/Software/Ptidej%205%20Workspace/PADL/src/padl/visitor
+END
+PtidejSolverCustomConstraintGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/visitor/PtidejSolverCustomConstraintGenerator.java
+END
+MetricsANMVCCalculator.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/visitor/MetricsANMVCCalculator.java
+END
+MetricsWMCCalculator.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/rptidej/ptidejlab/!svn/ver/2723/Software/Ptidej%205%20Workspace/PADL/src/padl/visitor/MetricsWMCCalculator.java
+END
+MAGMaGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/rptidej/ptidejlab/!svn/ver/2723/Software/Ptidej%205%20Workspace/PADL/src/padl/visitor/MAGMaGenerator.java
+END
+MAGMaGeneratorVertices.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/rptidej/ptidejlab/!svn/ver/2723/Software/Ptidej%205%20Workspace/PADL/src/padl/visitor/MAGMaGeneratorVertices.java
+END
+PtidejSolver2CustomDomainGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/rptidej/ptidejlab/!svn/ver/2723/Software/Ptidej%205%20Workspace/PADL/src/padl/visitor/PtidejSolver2CustomDomainGenerator.java
+END
+MetricsComplexityCalculator.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/rptidej/ptidejlab/!svn/ver/2723/Software/Ptidej%205%20Workspace/PADL/src/padl/visitor/MetricsComplexityCalculator.java
+END
+PtidejSolver3CustomDomainGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/visitor/PtidejSolver3CustomDomainGenerator.java
+END
+MetricsNOCCalculator.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/visitor/MetricsNOCCalculator.java
+END
+TripletDomainSimplifiedGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/rptidej/ptidejlab/!svn/ver/2723/Software/Ptidej%205%20Workspace/PADL/src/padl/visitor/TripletDomainSimplifiedGenerator.java
+END
+TripletDomainCompleteGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/rptidej/ptidejlab/!svn/ver/2723/Software/Ptidej%205%20Workspace/PADL/src/padl/visitor/TripletDomainCompleteGenerator.java
+END
+MetricsIDCalculator.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/visitor/MetricsIDCalculator.java
+END
+PtidejSolverConstraintGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/rptidej/ptidejlab/!svn/ver/2723/Software/Ptidej%205%20Workspace/PADL/src/padl/visitor/PtidejSolverConstraintGenerator.java
+END
+PtidejSolverAC4ConstraintGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/visitor/PtidejSolverAC4ConstraintGenerator.java
+END
+PtidejSolver3AC4DomainGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/rptidej/ptidejlab/!svn/ver/804/Software/Ptidej%205%20Workspace/PADL/src/padl/visitor/PtidejSolver3AC4DomainGenerator.java
+END
+PtidejSolverDomainGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/rptidej/ptidejlab/!svn/ver/903/Software/Ptidej%205%20Workspace/PADL/src/padl/visitor/PtidejSolverDomainGenerator.java
+END
+PtidejSolver2AC4DomainGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/rptidej/ptidejlab/!svn/ver/2723/Software/Ptidej%205%20Workspace/PADL/src/padl/visitor/PtidejSolver2AC4DomainGenerator.java
+END
+JavaGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/rptidej/ptidejlab/!svn/ver/5106/Software/Ptidej%205%20Workspace/PADL/src/padl/visitor/JavaGenerator.java
+END

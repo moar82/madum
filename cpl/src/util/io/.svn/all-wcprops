@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/rptidej/ptidejlab/!svn/ver/4875/Software/Ptidej%205%20Workspace/CPL/src/util/io
+END
+SubtypeLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/rptidej/ptidejlab/!svn/ver/2613/Software/Ptidej%205%20Workspace/CPL/src/util/io/SubtypeLoader.java
+END
+MultiChannelOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/rptidej/ptidejlab/!svn/ver/774/Software/Ptidej%205%20Workspace/CPL/src/util/io/MultiChannelOutputStream.java
+END
+AutoFlushPrintWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/rptidej/ptidejlab/!svn/ver/774/Software/Ptidej%205%20Workspace/CPL/src/util/io/AutoFlushPrintWriter.java
+END
+DataStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/rptidej/ptidejlab/!svn/ver/774/Software/Ptidej%205%20Workspace/CPL/src/util/io/DataStream.java
+END
+NullWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/rptidej/ptidejlab/!svn/ver/774/Software/Ptidej%205%20Workspace/CPL/src/util/io/NullWriter.java
+END
+OutputMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/rptidej/ptidejlab/!svn/ver/774/Software/Ptidej%205%20Workspace/CPL/src/util/io/OutputMonitor.java
+END
+Files.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/rptidej/ptidejlab/!svn/ver/4875/Software/Ptidej%205%20Workspace/CPL/src/util/io/Files.java
+END
+ReaderInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/rptidej/ptidejlab/!svn/ver/774/Software/Ptidej%205%20Workspace/CPL/src/util/io/ReaderInputStream.java
+END
+WarningPrintWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/rptidej/ptidejlab/!svn/ver/1013/Software/Ptidej%205%20Workspace/CPL/src/util/io/WarningPrintWriter.java
+END
+WriterOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/rptidej/ptidejlab/!svn/ver/774/Software/Ptidej%205%20Workspace/CPL/src/util/io/WriterOutputStream.java
+END
+ExtensionBasedFilenameFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/rptidej/ptidejlab/!svn/ver/907/Software/Ptidej%205%20Workspace/CPL/src/util/io/ExtensionBasedFilenameFilter.java
+END
+LogoBytesArrayBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/rptidej/ptidejlab/!svn/ver/774/Software/Ptidej%205%20Workspace/CPL/src/util/io/LogoBytesArrayBuilder.java
+END
+NamedInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/rptidej/ptidejlab/!svn/ver/2613/Software/Ptidej%205%20Workspace/CPL/src/util/io/NamedInputStream.java
+END
+Output.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/rptidej/ptidejlab/!svn/ver/1013/Software/Ptidej%205%20Workspace/CPL/src/util/io/Output.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/rptidej/ptidejlab/!svn/ver/1017/Software/Ptidej%205%20Workspace/PADL%20Statements/src/padl/kernel/impl
+END
+Statement.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/rptidej/ptidejlab/!svn/ver/1017/Software/Ptidej%205%20Workspace/PADL%20Statements/src/padl/kernel/impl/Statement.java
+END
+Iterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/rptidej/ptidejlab/!svn/ver/1017/Software/Ptidej%205%20Workspace/PADL%20Statements/src/padl/kernel/impl/Iterator.java
+END
+Block.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/rptidej/ptidejlab/!svn/ver/1017/Software/Ptidej%205%20Workspace/PADL%20Statements/src/padl/kernel/impl/Block.java
+END
+StatementFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/rptidej/ptidejlab/!svn/ver/1017/Software/Ptidej%205%20Workspace/PADL%20Statements/src/padl/kernel/impl/StatementFactory.java
+END
+SwitchInstruction.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/rptidej/ptidejlab/!svn/ver/1017/Software/Ptidej%205%20Workspace/PADL%20Statements/src/padl/kernel/impl/SwitchInstruction.java
+END
+Conditional.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/rptidej/ptidejlab/!svn/ver/1017/Software/Ptidej%205%20Workspace/PADL%20Statements/src/padl/kernel/impl/Conditional.java
+END
+IfInstruction.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/rptidej/ptidejlab/!svn/ver/1017/Software/Ptidej%205%20Workspace/PADL%20Statements/src/padl/kernel/impl/IfInstruction.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/rptidej/ptidejlab/!svn/ver/774/Software/Ptidej%205%20Workspace/CPL/src/util/reference
+END
+NullableReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/rptidej/ptidejlab/!svn/ver/774/Software/Ptidej%205%20Workspace/CPL/src/util/reference/NullableReference.java
+END
+NotNullableReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/rptidej/ptidejlab/!svn/ver/774/Software/Ptidej%205%20Workspace/CPL/src/util/reference/NotNullableReference.java
+END
+StrongReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/rptidej/ptidejlab/!svn/ver/774/Software/Ptidej%205%20Workspace/CPL/src/util/reference/StrongReference.java
+END

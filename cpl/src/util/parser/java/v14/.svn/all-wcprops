@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/rptidej/ptidejlab/!svn/ver/774/Software/Ptidej%205%20Workspace/CPL/src/util/parser/java/v14
+END
+JavaParserConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/rptidej/ptidejlab/!svn/ver/774/Software/Ptidej%205%20Workspace/CPL/src/util/parser/java/v14/JavaParserConstants.java
+END
+ParseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/rptidej/ptidejlab/!svn/ver/774/Software/Ptidej%205%20Workspace/CPL/src/util/parser/java/v14/ParseException.java
+END
+Token.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/rptidej/ptidejlab/!svn/ver/774/Software/Ptidej%205%20Workspace/CPL/src/util/parser/java/v14/Token.java
+END
+TokenMgrError.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/rptidej/ptidejlab/!svn/ver/774/Software/Ptidej%205%20Workspace/CPL/src/util/parser/java/v14/TokenMgrError.java
+END
+JavaCharStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/rptidej/ptidejlab/!svn/ver/774/Software/Ptidej%205%20Workspace/CPL/src/util/parser/java/v14/JavaCharStream.java
+END
+JavaParserTokenManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/rptidej/ptidejlab/!svn/ver/774/Software/Ptidej%205%20Workspace/CPL/src/util/parser/java/v14/JavaParserTokenManager.java
+END
+JavaParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/rptidej/ptidejlab/!svn/ver/774/Software/Ptidej%205%20Workspace/CPL/src/util/parser/java/v14/JavaParser.java
+END

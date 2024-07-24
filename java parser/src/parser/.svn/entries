@@ -1,0 +1,40 @@
+9
+
+dir
+6980
+https://web.soccerlab.polymtl.ca/rptidej/ptidejlab/Software/Ptidej%205%20Workspace/Java%20Parser/src/parser
+https://web.soccerlab.polymtl.ca/rptidej/ptidejlab
+
+
+
+2011-09-12T00:58:36.409447Z
+6964
+weiwu
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+cb869be2-a2c7-4665-b569-bb09ff7e8264
+
+input
+dir
+
+reader
+dir
+
+wrapper
+dir
+
+writer
+dir
+
